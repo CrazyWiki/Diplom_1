@@ -1,24 +1,23 @@
-## Дипломный проект. Задание 1: Юнит-тесты
+The final project of the Yandex course consisted of three parts:
+Diploma 1 - Unit tests
+Diploma 2 - API
+Diploma 3 - Testing the web application
 
-### Автотесты для проверки программы, которая помогает заказать бургер в Stellar Burgers
+Diploma Project. Task 1: Unit Tests
 
-### Реализованные сценарии
+Automated Tests for a Program That Helps Order Burgers at Stellar Burgers
 
-Созданы юнит-тесты, покрывающие классы `Bun`, `Burger`, `Ingredient`, `Database`
+Implemented Scenarios
 
-Процент покрытия 100% (отчет: `htmlcov/index.html`)
+Unit tests have been created covering the classes Bun, Burger, Ingredient, and Database.
+Coverage percentage is 100% (report: htmlcov/index.html).
+Project Structure
 
-### Структура проекта
+praktikum - package containing the program code
+tests - package containing tests organized by class, e.g., bun_test.py, burger_test.py, etc.
+Running Automated Tests
 
-- `praktikum` - пакет, содержащий код программы
-- `tests` - пакет, содержащий тесты, разделенные по классам. Например, `bun_test.py`, `burger_test.py` и т.д.
-
-### Запуск автотестов
-
-**Установка зависимостей**
-
-> `$ pip install -r requirements.txt`
-
-**Запуск автотестов и создание HTML-отчета о покрытии**
-
->  `$ pytest --cov=praktikum --cov-report=html`
+Installing Dependencies
+$ pip install -r requirements.txt
+Running Automated Tests and Generating HTML Coverage Report
+$ pytest --cov=praktikum --cov-report=html
